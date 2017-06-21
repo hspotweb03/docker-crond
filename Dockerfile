@@ -6,4 +6,4 @@ RUN apk add --update curl \
 COPY docker-entrypoint.sh /usr/local/bin/
 
 ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["/usr/sbin/crond","-f","-d","5"]
+CMD ["/usr/sbin/crond","-f","-d","6"]
